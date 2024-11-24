@@ -1,0 +1,205 @@
+		body {
+			margin: 0;
+			background-color: black;			
+		}
+
+		.topo{
+			height: 100vh;
+			width: 100%;
+			margin: 0;
+			background-image: url(serenata.jpg);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+
+		p {
+			font-family: "Consolas";
+			font-size: 16pt;
+			color: white;
+			text-align: justify;
+			text-align-last: center;
+		}
+
+		.dois {
+			text-align: justify;
+			text-align-last: center;
+		}
+		.dois, .pt2 p, .h12{
+			color: black;
+			background-color: white;
+			width: 50%;
+			text-align: justify;
+			text-align-last: center;
+		}
+
+		h1 {
+			font-family: "Copperplate Gothic";
+			font-size: 28pt;
+			color: white;
+			text-align: center;
+			margin-top: 100px;
+		}
+
+		.primer {
+			width: 60%;
+		}
+
+		.pt1, .pt2 {
+			width: 100%;
+			height: 80%;
+			display: flex;
+			justify-content: center;
+			
+		}
+
+		.estrelas {
+			width: 30%;
+			justify-content: center;
+			margin-right: 50px;
+		}
+		
+		.coracao {
+		 	width: 8%;
+		 	margin: 30px;
+		 	margin-bottom: 60px;
+		}
+
+		.ajeitar, .h12{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.centra, .centra p {
+			text-align: center;
+		}
+
+		.h12 {
+			width: 35%;
+			float:left;
+			margin-left: 20px;
+			margin-top: 8%;
+			align-items: center;
+		}
+		.branc {
+			background-color: white;
+			height: 40%;
+			width: 100%;
+		}
+		.conversa1{
+			width: 30%;
+			padding: 10px;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-top: 30px;
+			background-color: white;
+		}
+
+		.teamo {
+			width: 40%;
+			background-color: white;
+			padding: 10px;
+			margin: 20px;
+		}
+
+		.primer {
+			margin-top: 100px;
+			margin-bottom: 100px;
+		}
+
+		.h13 {
+			color: black;
+			margin: 0;
+			padding: 50px;
+		}
+
+		.primerd{
+			margin-top: 0;
+		}
+		
+		#fx {
+			width: 70%;
+		
+		}
+
+		h2{
+			color: white;
+			text-align: center;
+			font-size: 58pt;
+			font-family: "Copperplate Gothic";
+			margin: 0;
+		}
+
+		audio {
+			width: 100%;
+			padding-top: 10px;
+		}
+
+		#cliq {
+			padding: 10px;
+			margin: 0;
+
+		}
+
+		.h14 {
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-top: 60px;
+			margin-bottom: 60px;
+			font-size: 18pt;
+			font-family: "Copperplate Gothic";
+		}
+
+		.ajeit {
+			display: grid;
+			grid-template-columns: repeat(6, 1fr);
+			grid-template-rows: 1fr;
+
+		}
+
+		.marginb{
+			margin-bottom: 150px;
+		}
+
+		.fotos img {
+			width: 100%;
+		}
+
+		.branc2 {
+			margin: 0;
+		}
+		@media only screen and (max-width: 736px) {
+ 		.ajeitar, .branc {
+    		display: grid;
+    		grid-template-columns: 1fr;
+    		justify-items: center;
+    		align-items: center;
+  			}
+
+  		.dois {
+  			width: 80%;
+  			}
+
+  		.ajeit {
+  			display: grid;
+  			grid-template-columns: 1fr;
+  		}
+
+  		.conversa1, .teamo {
+  			width: 100%;
+  			}
+		
+		.estrelas {
+  			margin: 10px;
+  			width: 90%;
+  		}
+			
+  		.coracao {
+  			width: 20%;
+  			}
+  		.h12, .dois {
+  			width: 80%;
+  			}
+		}
